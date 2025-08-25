@@ -5,5 +5,7 @@ package co.uniquindio.poo;
 public class Main {
     public static void main(String[] args) {
 //hola mundo
+
+        private String hola;
     }
 }
