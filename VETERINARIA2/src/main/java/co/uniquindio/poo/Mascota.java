@@ -5,10 +5,23 @@ public class Mascota {
     private int edad;
 
 
-    public Mascota(String identificacion, String nombre, String raza,int edad){
+    @Override
+    public String toString() {
+        return "Mascota{" +
+                "identificacion='" + identificacion + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", raza='" + raza + '\'' +
+                ", edad=" + edad +
+                '}';
+    }
+
+    public Mascota(String identificacion, String nombre, String raza, int edad){
         this.identificacion=identificacion;
         this.nombre=nombre;
         this.raza=raza;
         this.edad=edad;
+    }
+    public String getidentificacion(){
+        return identificacion;
     }
 }
