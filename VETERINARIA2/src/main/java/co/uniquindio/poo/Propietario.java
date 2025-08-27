@@ -9,9 +9,6 @@ public class Propietario {
     public String toString() {
         return "Propietario{" +
                 "nombre='" + nombre + '\'' +
-                ", email='" + email + '\'' +
-                ", telefono=" + telefono +
-                ", identificacion=" + identificacion +
                 '}';
     }
 
@@ -25,8 +22,6 @@ public class Propietario {
 
 
     }
-    public String getidentificacion(){
-        return identificacion;
-    }
+
 
 }

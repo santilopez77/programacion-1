@@ -8,10 +8,7 @@ public class Mascota {
     @Override
     public String toString() {
         return "Mascota{" +
-                "identificacion='" + identificacion + '\'' +
-                ", nombre='" + nombre + '\'' +
-                ", raza='" + raza + '\'' +
-                ", edad=" + edad +
+                "nombre='" + nombre + '\'' +
                 '}';
     }
 
@@ -20,8 +17,13 @@ public class Mascota {
         this.nombre=nombre;
         this.raza=raza;
         this.edad=edad;
+
+
+
+
+
     }
-    public String getidentificacion(){
-        return identificacion;
-    }
+
+
+
 }
