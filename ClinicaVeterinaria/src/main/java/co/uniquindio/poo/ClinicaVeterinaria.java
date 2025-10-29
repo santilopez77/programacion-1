@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ClinicaVeterinaria {
-    {
+
 
         // Atributos
         private String nit;
@@ -215,4 +215,4 @@ public class ClinicaVeterinaria {
 
 
     }
-}
+

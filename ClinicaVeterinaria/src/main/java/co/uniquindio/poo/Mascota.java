@@ -7,7 +7,7 @@ public class Mascota {
     // Atributos
     private String nombre;
     private String raza;
-    private int id;
+    private int identificacion;
 
     // Relaciones de asociación
     private Propietario propietario;
@@ -15,15 +15,15 @@ public class Mascota {
 
     /**
      * Constructor de la clase mascota
-     * @param nombre de la mascota
-     * @param raza de la mascota
-     * @param id de la mascota
-     * @param propietario de la mascota
+     *
+     * @param nombre         de la mascota
+     * @param raza           de la mascota
+     * @param identificacion de la mascota
      */
-    public Mascota(String nombre, String raza, int id, Propietario propietario){
+    public Mascota(String nombre, String raza, int identificacion, Propietario propietario){
         this.nombre=nombre;
         this.raza=raza;
-        this.id=id;
+        this.identificacion=identificacion;
         this.propietario=propietario;
         this.listCitasMascota = new ArrayList<>();
     }
@@ -74,7 +74,7 @@ public class Mascota {
      * @return id de la mascota
      */
     public int getId() {
-        return id;
+        return identificacion;
     }
 
     /**
@@ -82,7 +82,7 @@ public class Mascota {
      * @param id de la mascota
      */
     public void setId(int id) {
-        this.id = id;
+        this.identificacion = identificacion;
     }
 
     /**
